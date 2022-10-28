@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+  <header>
+    <h1>Informations concernant l'offre de stage</h1>
+  </header>
+
+  <div id="nav">
+    <nav>
+        <li><a href="index.html"><button>Acceuil</button></a></li>
+        <li><a href="tables.php"><button>Liste des stages disponibles</button></a></li>
+    </nav>
+    </div>
+
+    <div id="party">
+        <form action=formulaireGET.php method="get">
+        <h1>Formulaire</h1>
+        <div>
+          <label for="jour">type de métier:</label>
+          <input type="text" id="jour" name="jour" placeholder="avocat" required>
+        </div>
+        <div>
+          <label for="adresse">nom de l'entreprise</label>
+          <input type="text" id="adresse" name="adresse" placeholder="IKEA" required>
+        </div>
+        <div>
+          <label for="capacite">Début du stage :</label>
+          <input type="text" id="capacite" name="capacite" placeholder="20/06" required>
+        </div>
+        <div>
+          <label for="phone">Fin du stage :</label>
+          <input type="text" id="phone" name="phone" placeholder="27/06" required>
+        </div>
+        <div>
+          <label for="heure1">capacité d'acceuil :</label>
+          <input type="text" id="heure1" name="heure1" placeholder="3" required>
+        </div>
+        <div>
+          <label for="heure2">adresse mail :</label>
+          <input type="text" id="heure2" name="heure2" placeholder="adresse@gmail.com" required>
+        </div>
+        <button id="button" name="button" class="button" type="submit">Publier</button>
+        </form>
+      </div>
+</body>
+</html>

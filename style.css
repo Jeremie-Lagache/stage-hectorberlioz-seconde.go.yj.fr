@@ -1,0 +1,96 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav1 {
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 3.5%;
+    margin-top: 8%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+#nav2 {
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 3.5%;
+    margin-top: 8%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+#nav button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+button {
+    background: rgba(38, 38, 138, 0.514);
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+}
+
+@media (width < 500px) {
+
+    #nav {
+        margin-bottom: 15%;
+        width: 75%;
+        margin-left:  auto;
+        margin-right:  auto;
+    }
+
+    #nav button{
+        font-size: 11px;
+        border-radius: 9px;
+        padding: 1.5%;
+    }
+
+    table {
+        font-size: 11px;
+        margin-top: 10%;
+    }
+
+    header {
+        margin-top: 7%;
+        margin-bottom: 11%;
+    }
+
+    #party {
+        width: 70%;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+
+    #party h1 {
+        margin-bottom: 16%;
+    }
+    div input {
+        margin-bottom: 6%;
+    }
+}
